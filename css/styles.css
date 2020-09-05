@@ -1,9 +1,16 @@
 #introduction{
-  background-color: #0f3460;
+  background-color: #171c28;
+}
+
+#background{
+  background-color: #171c28;
+  padding-left: 5%;
+  padding-bottom: 3%;
 }
 
 h1{
   font-family: 'Montserrat', sans-serif;
+  color: #007bff;
 }
 
 h2{
@@ -14,30 +21,69 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #007bff
+
+}
 
 .cotainer-fluid{
-  padding: 3% 15%;
+  padding: 3%;
 }
 
 
 .intro__hello{
   margin-top: 100px;
-  color: white;
+  color: #007bff;
 }
 
 .intro__tagline{
   margin-top: 150px;
-  color: white;
+  color: #afafbf;
 }
 
 .intro__contact{
   margin-top: 150px;
   font-size: 16.5px;
-  color: white;
+  color: #afafbf;
 }
 
 .highlight-link{
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #afafbf;
   font-size: 16.5px;
+}
+
+
+
+.section__title {
+  font-family: 'Montserrat', sans-serif;
+    color: #007bff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-bottom: 5%;
+
+
+}
+
+.section__content{
+
+  font-family: 'Montserrat', sans-serif;
+  color: #afafbf;
+  text-align: justify;
+
+}
+
+.row{
+    padding: 3% 15%;
+}
+
+.underline-link{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
 }
