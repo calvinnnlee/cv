@@ -4,8 +4,14 @@
 
 #background{
   background-color: #171c28;
-  padding-left: 5%;
   padding-bottom: 3%;
+  text-align: left;
+}
+
+#skills{
+  background-color: #171c28;
+  padding-bottom: 3%;
+  text-align: left;
 }
 
 h1{
@@ -23,6 +29,8 @@ h3{
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700
+
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -57,8 +65,6 @@ body {
   font-size: 16.5px;
 }
 
-
-
 .section__title {
   font-family: 'Montserrat', sans-serif;
     color: #007bff;
@@ -67,7 +73,6 @@ body {
     letter-spacing: 2px;
     padding-bottom: 5%;
 
-
 }
 
 .section__content{
@@ -75,15 +80,43 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #afafbf;
   text-align: justify;
-
+  font-weight: 400;
 }
 
 .row{
-    padding: 3% 15%;
+    padding: 3% 20%;
 }
 
 .underline-link{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-weight: bold;
+  font-weight: 400;
+}
+
+div {
+    display: block;
+}
+
+.skillz__category__label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.skillz__category__item {
+    font-family: 'Montserrat', sans-serif;
+    margin: 3px 0;
+    font-size: .9rem;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
